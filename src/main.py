@@ -4,7 +4,7 @@ import numpy
 import os
 
 data = []
-folder = 'twitterData/2020_03'
+folder = "../twitterData/2020_03"
 
 for filename in os.listdir(folder):
     if filename.endswith(".csv"):
@@ -24,6 +24,6 @@ for filename in os.listdir(folder):
 print(data)
 
 npArray = numpy.array(data)
-numpy.savetxt('firstWave/march.csv', npArray, delimiter=',', fmt='%s')
+numpy.savetxt('../firstWave/march.csv', npArray, delimiter=',', fmt='%s')
 
 #dataframe.to_csv("ready_march20_march21.csv", index=False, header=None)

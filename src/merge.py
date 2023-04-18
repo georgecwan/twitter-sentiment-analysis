@@ -4,7 +4,7 @@ import numpy
 import os
 
 data = []
-folder = '/Users/georgew/PycharmProjects/apResearch/firstWave'
+folder = "../firstWave"
 
 for filename in os.listdir(folder):
     if filename.endswith(".csv"):

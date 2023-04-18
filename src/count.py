@@ -4,7 +4,7 @@ import numpy
 import os
 
 data = []
-folder = '/Users/georgew/PycharmProjects/apResearch/twitterData'
+folder = "../twitterData"
 count = 0
 filenum = 0
 maxfile = ""
